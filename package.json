@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Provides types for all ports in computer networking, also includes types for common services",
   "main": "index.ts",
+  "esnext": "src/ports.ts",
+  "module": "src/ports.ts",
   "dependencies": {
     "acorn": "^8.10.0",
     "acorn-walk": "^8.2.0",
@@ -10,7 +12,6 @@
     "create-require": "^1.1.1",
     "diff": "^4.0.2",
     "make-error": "^1.3.6",
-    "typescript": "^5.2.2",
     "v8-compile-cache-lib": "^3.0.1",
     "yn": "^3.1.1"
   },
@@ -37,6 +38,15 @@
   "author": "Matthew Allen Rackley <matthew.rackley17@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.9.1"
+    "@types/json-schema": "^7.0.13",
+    "@types/node": "^20.6.4",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "@typescript-eslint/types": "^6.7.2",
+    "babel": "^6.23.0",
+    "semver": "^7.5.4",
+    "ts-lib": "^0.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
