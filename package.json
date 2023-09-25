@@ -1,8 +1,8 @@
 {
-  "name": "ports",
+  "name": "port-types",
   "version": "1.0.0",
   "description": "Provides types for all ports in computer networking, also includes types for common services",
-  "main": "index.ts",
+  "main": "src/port-types.ts",
   "esnext": "src/ports.ts",
   "module": "src/ports.ts",
   "dependencies": {

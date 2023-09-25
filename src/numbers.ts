@@ -20,7 +20,7 @@
  * @author Matthew Allen Rackley
  */
 'use strict';
-import { Numbers } from 'base-nums';
+import { Numbers, SixtyThousand, Thousand } from 'base-nums';
 export type * from 'base-nums';
 /**
  * @type TenToFiftyThousand - A type that represents the numbers `10000-59999`.
