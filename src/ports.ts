@@ -9,7 +9,7 @@
  * @author Matthew Allen Rackley
  */
 
-import type { InitialNumbers, Numbers, Thousand, TenToFiftyThousand, SixtyThousand } from 'numbers';
+import type { InitialNumbers, Numbers, SixtyThousand, TenToFiftyThousand, Thousand } from './numbers';
 /**
  * @type port - A type that represents all possible port numbers.
  * - This type is a union of all possible port numbers.
@@ -33,7 +33,5 @@ export type port = `${1 | 2 | 3 | 4 | 5}${Numbers}${Numbers}${Numbers}${Numbers}
  * - Ranges from `1-65536`.
  */
 export type ports = Thousand | TenToFiftyThousand | SixtyThousand;
-
-export type * from 'ports';
 
 export default port;

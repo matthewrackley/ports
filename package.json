@@ -1,6 +1,6 @@
 {
   "name": "port-types",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Provides types for all ports in computer networking, also includes types for common services",
   "main": "src/port-types.ts",
   "esnext": "src/ports.ts",
