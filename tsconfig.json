@@ -36,9 +36,6 @@
       "common-ports": [
         "./common-ports"
       ],
-      "base-nums": [
-        "./base-nums"
-      ],
       "port-types": [
         "./index"
       ],
