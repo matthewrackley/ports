@@ -2,19 +2,20 @@
   "name": "port-types",
   "version": "1.1.0",
   "description": "Provides types for all ports in computer networking, also includes types for common services",
-  "main": "src/index.ts",
-  "esnext": "src/index.ts",
-  "module": "src/index.ts",
+  "main": "./index.ts",
+  "esnext": "./index.ts",
+  "module": "./index.ts",
   "exports": {
     "port-types": {
-      "import": "./src/index.ts",
-      "require": "./src/index.js"
+      "import": "./index.ts",
+      "require": "./index.js"
     },
     "port-types/registered": "./src/registered.ts",
     "port-types/ports": "./src/ports.ts",
     "port-types/numbers": "./src/numbers.ts",
     "port-types/port": "./src/port.ts"
   },
+  "types": "./index.d.ts",
   "dependencies": {
     "acorn": "^8.10.0",
     "acorn-walk": "^8.2.0",
